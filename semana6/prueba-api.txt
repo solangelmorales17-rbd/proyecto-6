@@ -1,0 +1,9 @@
+Al enviar una petición POST a la dirección http://localhost:3000/registro utilizando el cliente de pruebas con el JSON de María, el servidor procesa la información exitosamente gracias al middleware express.json().
+
+La respuesta devuelta por el servidor es un objeto JSON con un estado de éxito y los mismos datos que fueron enviados en el cuerpo (body) de la petición:
+
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
